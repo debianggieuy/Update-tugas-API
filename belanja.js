@@ -1,10 +1,10 @@
 const express = require("express")
-const app = express()
+const app = express()    
 
 // set to read a request from JSON format
 
 app.use(express.json())
-// JSON is String
+// JSON is String  
 
 app.post("/belanja", (request, response) => {
     let barang = request.body.barang
