@@ -33,7 +33,7 @@ app.post("/datasiswa", (request, response) => {
         return response.json({
             "Jumlah Data" : jumlah_data,
             "Data " : hasil
-    
+       
         })
         
     
