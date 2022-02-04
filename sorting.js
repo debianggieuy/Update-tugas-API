@@ -24,6 +24,9 @@ app.listen(8000, () => {
 
 })
 
+ //endpoint kedua
+  
+
     
   
     
